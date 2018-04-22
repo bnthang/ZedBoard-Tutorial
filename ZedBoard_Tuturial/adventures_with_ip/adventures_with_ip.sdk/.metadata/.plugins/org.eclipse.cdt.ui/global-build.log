@@ -1,0 +1,10 @@
+15:56:08 **** Incremental Build of configuration Debug for project adventures_with_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:56:19 **** Incremental Build of configuration Debug for project adventures_with_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

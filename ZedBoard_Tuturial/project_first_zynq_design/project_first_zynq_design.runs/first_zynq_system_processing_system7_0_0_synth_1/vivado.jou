@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 10 14:21:59 2018
+# Process ID: 3548
+# Current directory: C:/Users/bntha/Desktop/ZedBoard_Tuturial/project_first_zynq_design/project_first_zynq_design.runs/first_zynq_system_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log first_zynq_system_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_processing_system7_0_0.tcl
+# Log file: C:/Users/bntha/Desktop/ZedBoard_Tuturial/project_first_zynq_design/project_first_zynq_design.runs/first_zynq_system_processing_system7_0_0_synth_1/first_zynq_system_processing_system7_0_0.vds
+# Journal file: C:/Users/bntha/Desktop/ZedBoard_Tuturial/project_first_zynq_design/project_first_zynq_design.runs/first_zynq_system_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_processing_system7_0_0.tcl -notrace

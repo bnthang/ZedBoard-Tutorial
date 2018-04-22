@@ -1,0 +1,908 @@
+
+*** Running vivado
+    with args -log ip_design_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source ip_design_wrapper.tcl -notrace
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source ip_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/Sources/adventures_with_ip_integrator/ip/xilinx.com_user_led_controller_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/Sources/adventures_with_ip_integrator/ip/xilinx.com_user_lms_pcore_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/Sources/adventures_with_ip_integrator/ip/xilinx_com_hls_nco_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/Sources/adventures_with_ip_integrator/ip/zed_audio_ctrl'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xlinx_Vivado_2017.4/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 330.797 ; gain = 39.012
+Command: link_design -top ip_design_wrapper -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_axi_gpio_0_0/ip_design_axi_gpio_0_0.dcp' for cell 'ip_design_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0.dcp' for cell 'ip_design_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_led_controller_0_0/ip_design_led_controller_0_0.dcp' for cell 'ip_design_i/led_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_lms_pcore_0_0/ip_design_lms_pcore_0_0.dcp' for cell 'ip_design_i/lms_pcore_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_nco_0_0/ip_design_nco_0_0.dcp' for cell 'ip_design_i/nco_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_processing_system7_0_0/ip_design_processing_system7_0_0.dcp' for cell 'ip_design_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_rst_ps7_0_100M_0/ip_design_rst_ps7_0_100M_0.dcp' for cell 'ip_design_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_zed_audio_ctrl_0_0/ip_design_zed_audio_ctrl_0_0.dcp' for cell 'ip_design_i/zed_audio_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_xbar_0/ip_design_xbar_0.dcp' for cell 'ip_design_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_auto_pc_0/ip_design_auto_pc_0.dcp' for cell 'ip_design_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_processing_system7_0_0/ip_design_processing_system7_0_0.xdc] for cell 'ip_design_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_processing_system7_0_0/ip_design_processing_system7_0_0.xdc] for cell 'ip_design_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_rst_ps7_0_100M_0/ip_design_rst_ps7_0_100M_0_board.xdc] for cell 'ip_design_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_rst_ps7_0_100M_0/ip_design_rst_ps7_0_100M_0_board.xdc] for cell 'ip_design_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_rst_ps7_0_100M_0/ip_design_rst_ps7_0_100M_0.xdc] for cell 'ip_design_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_rst_ps7_0_100M_0/ip_design_rst_ps7_0_100M_0.xdc] for cell 'ip_design_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_axi_gpio_0_0/ip_design_axi_gpio_0_0_board.xdc] for cell 'ip_design_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_axi_gpio_0_0/ip_design_axi_gpio_0_0_board.xdc] for cell 'ip_design_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_axi_gpio_0_0/ip_design_axi_gpio_0_0.xdc] for cell 'ip_design_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_axi_gpio_0_0/ip_design_axi_gpio_0_0.xdc] for cell 'ip_design_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0_board.xdc] for cell 'ip_design_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0_board.xdc] for cell 'ip_design_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0.xdc] for cell 'ip_design_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1280.004 ; gain = 564.094
+Finished Parsing XDC File [c:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/sources_1/bd/ip_design/ip/ip_design_clk_wiz_0_0/ip_design_clk_wiz_0_0.xdc] for cell 'ip_design_i/clk_wiz_0/inst'
+Parsing XDC File [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JA1'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA10'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA2'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA3'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA4'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA7'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA8'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JA9'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB1'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB10'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB2'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB3'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB4'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB7'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB8'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB9'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC1_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC2_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC2_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC3_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC3_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC4_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC4_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD1_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD2_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD2_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD3_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD3_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD4_N'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JD4_P'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_DC'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_RES'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_SCLK'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_SDIN'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_VBAT'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OLED_VDD'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_tri_io[0]'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_tri_io[0]'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_tri_io[1]'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'GPIO_tri_io[1]'. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.srcs/constrs_1/imports/constraints/adventures_with_ip.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+25 Infos, 42 Warnings, 40 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1280.289 ; gain = 949.492
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.974 . Memory (MB): peak = 1280.289 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 156510424
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.833 . Memory (MB): peak = 1295.891 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 33 cells and removed 68 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 18d9e2073
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1295.891 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 33 cells and removed 66 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 13b87d707
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1295.891 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 8 cells and removed 128 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 13b87d707
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1295.891 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 13b87d707
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1295.891 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1295.891 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 112940317
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1295.891 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-26.374 | TNS=-6784.656 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 2 newly gated: 0 Total Ports: 4
+Number of Flops added for Enable Generation: 3
+
+Ending PowerOpt Patch Enables Task | Checksum: 20f7ce5f8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 20f7ce5f8
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1439.758 ; gain = 143.867
+INFO: [Common 17-83] Releasing license: Implementation
+46 Infos, 42 Warnings, 40 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1439.758 ; gain = 159.469
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.106 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file ip_design_wrapper_drc_opted.rpt -pb ip_design_wrapper_drc_opted.pb -rpx ip_design_wrapper_drc_opted.rpx
+Command: report_drc -file ip_design_wrapper_drc_opted.rpt -pb ip_design_wrapper_drc_opted.pb -rpx ip_design_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14dcd64e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 91fc4cf7
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 12a3f50bc
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 12a3f50bc
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 12a3f50bc
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1900b2a35
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1900b2a35
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 20895ef63
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1cf63c1bf
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1cf63c1bf
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1cf63c1bf
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1eb26d3b3
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 19b3d97b9
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 189872dd4
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 189872dd4
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: ee0613dc
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: ee0613dc
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: d57162dd
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: d57162dd
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:24 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-31.442. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 112042f31
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 112042f31
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 112042f31
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 112042f31
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 10cc0d3f8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 10cc0d3f8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Ending Placer Task | Checksum: abf1173a
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:48 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+68 Infos, 42 Warnings, 40 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:01 ; elapsed = 00:00:50 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.532 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file ip_design_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file ip_design_wrapper_utilization_placed.rpt -pb ip_design_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1439.758 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file ip_design_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1439.758 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 8aa927e6 ConstDB: 0 ShapeSum: 2147ef54 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: e7942360
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1465.953 ; gain = 26.195
+Post Restoration Checksum: NetGraph: 4f118475 NumContArr: 98829eeb Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: e7942360
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1465.953 ; gain = 26.195
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: e7942360
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1465.953 ; gain = 26.195
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: e7942360
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:28 . Memory (MB): peak = 1465.953 ; gain = 26.195
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1a7d77ba1
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1478.102 ; gain = 38.344
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-31.560| TNS=-7854.267| WHS=-0.170 | THS=-28.772|
+
+Phase 2 Router Initialization | Checksum: 120ffd200
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1496.375 ; gain = 56.617
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 165c01b6d
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:32 . Memory (MB): peak = 1496.375 ; gain = 56.617
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 268
+ Number of Nodes with overlaps = 25
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.176| TNS=-8612.232| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: cf33f20b
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:34 . Memory (MB): peak = 1496.375 ; gain = 56.617
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 33
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.294| TNS=-8367.480| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1b9758b76
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 1496.375 ; gain = 56.617
+Phase 4 Rip-up And Reroute | Checksum: 1b9758b76
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:35 . Memory (MB): peak = 1496.375 ; gain = 56.617
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1b4368a93
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:36 . Memory (MB): peak = 1496.375 ; gain = 56.617
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-32.176| TNS=-8601.595| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 11d06d1d5
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 11d06d1d5
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.430 ; gain = 59.672
+Phase 5 Delay and Skew Optimization | Checksum: 11d06d1d5
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 19b9481a9
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.430 ; gain = 59.672
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-31.981| TNS=-8005.524| WHS=0.042  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 10edb6dda
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 1499.430 ; gain = 59.672
+Phase 6 Post Hold Fix | Checksum: 10edb6dda
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.30346 %
+  Global Horizontal Routing Utilization  = 2.44937 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Utilization threshold used for congestion level computation: 0.85
+Congestion Report
+North Dir 1x1 Area, Max Cong = 78.3784%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 66.6667%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 64.7059%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 61.7647%, No Congested Regions.
+Phase 7 Route finalize | Checksum: 1ec2afafa
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1ec2afafa
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 21dd4685d
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-31.981| TNS=-8005.524| WHS=0.042  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 21dd4685d
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:37 . Memory (MB): peak = 1499.430 ; gain = 59.672
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+85 Infos, 43 Warnings, 40 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:39 . Memory (MB): peak = 1499.430 ; gain = 59.672
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.754 . Memory (MB): peak = 1499.430 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file ip_design_wrapper_drc_routed.rpt -pb ip_design_wrapper_drc_routed.pb -rpx ip_design_wrapper_drc_routed.rpx
+Command: report_drc -file ip_design_wrapper_drc_routed.rpt -pb ip_design_wrapper_drc_routed.pb -rpx ip_design_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file ip_design_wrapper_methodology_drc_routed.rpt -pb ip_design_wrapper_methodology_drc_routed.pb -rpx ip_design_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file ip_design_wrapper_methodology_drc_routed.rpt -pb ip_design_wrapper_methodology_drc_routed.pb -rpx ip_design_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/ip_design_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1500.918 ; gain = 1.488
+INFO: [runtcl-4] Executing : report_power -file ip_design_wrapper_power_routed.rpt -pb ip_design_wrapper_power_summary_routed.pb -rpx ip_design_wrapper_power_routed.rpx
+Command: report_power -file ip_design_wrapper_power_routed.rpt -pb ip_design_wrapper_power_summary_routed.pb -rpx ip_design_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+97 Infos, 43 Warnings, 40 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file ip_design_wrapper_route_status.rpt -pb ip_design_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file ip_design_wrapper_timing_summary_routed.rpt -rpx ip_design_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file ip_design_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file ip_design_wrapper_clock_utilization_routed.rpt
+Command: write_bitstream -force ip_design_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9 input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp input ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+INFO: [Common 17-14] Message 'DRC DPIP-1' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_1 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_10 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_10/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_11 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_11/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_12 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_12/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_13 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_13/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_14 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_14/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_15 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_15/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_16 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_16/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_17 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_17/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_18 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_18/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_19 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_19/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_2 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_20 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_20/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_21 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_21/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_22 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_22/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_23 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_23/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_24 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_24/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_25 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_25/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_26 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_26/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_27 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_27/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_28 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_28/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_29 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_29/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_3 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_30 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_30/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_31 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_31/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_32 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_32/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_4 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_4/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_5 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_5/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_6 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_6/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_7 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_7/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_8 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_8/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_9 output ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_9/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__11/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__12/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__13/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__14/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__15/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__16/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__17/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__18/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__19/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__20/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__21/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__22/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__23/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__24/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__25/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__26/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__27/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__28/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__29/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__30/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__31/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__4/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__6/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__8/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/ARG__9/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_1 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_10 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_10/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_11 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_11/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_12 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_12/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_13 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_13/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_14 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_14/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_15 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_15/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_16 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_16/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_17 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_17/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_18 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_18/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_19 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_19/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_2 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_20 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_20/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_21 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_21/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_22 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_22/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_23 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_23/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_24 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_24/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_25 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_25/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_26 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_26/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_27 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_27/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_28 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_28/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_29 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_29/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_3 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_30 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_30/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_31 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_31/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_32 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_32/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_4 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_4/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_5 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_5/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_6 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_6/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_7 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_7/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_8 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_8/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_9 multiplier stage ip_design_i/lms_pcore_0/U0/u_lms_pcore_dut_inst/u_LMS/mul_temp_9/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 295 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Project 1-821] Please set project.enableDesignId to be 'true'.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./ip_design_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/bntha/Desktop/ZedBoard_Tuturial/adventures_with_ip/adventures_with_ip.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Apr 11 15:48:01 2018. For additional details about this file, please refer to the WebTalk help file at D:/Xlinx_Vivado_2017.4/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+116 Infos, 275 Warnings, 41 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 1961.391 ; gain = 436.746
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 11 15:48:02 2018...
